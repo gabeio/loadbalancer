@@ -1,4 +1,6 @@
 ./configure --prefix=/opt/nginx \
+--without-http_auto_index_module \
+--without-http_ssi_module \
 --add-module=/opt/headers-more-nginx-module \
 --with-http_dav_module \
 --with-ipv6 \
