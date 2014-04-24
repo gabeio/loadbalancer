@@ -1,1 +1,2 @@
+# run this for new nginx installs (ubuntu)
 sudo apt-get -y install libpcre3 libpcre3-dev libxslt1.1 libxslt-dev libcap2-bin

@@ -1,3 +1,4 @@
+# personalized configuration of nginx
 ./configure --prefix=/opt/nginx \
 --without-http_scgi_module \
 --without-http_uwsgi_module \
