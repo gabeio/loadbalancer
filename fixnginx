@@ -1,1 +1,3 @@
+# run this on new build of nginx binary
+# setcap required (ubuntu) allow nginx to bind to ports lower than 1024
 sudo setcap 'cap_net_bind_service=+ep' /opt/nginx/objs/nginx
