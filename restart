@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # kills ALL *nginx* processes and starts nginx again
 #pkill -9 -f nginx
 killall nginx

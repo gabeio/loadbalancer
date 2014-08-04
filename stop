@@ -1,1 +1,4 @@
-pkill -9 -f nginx
+#!/usr/bin/env bash
+# kills everything with nginx in it
+#pkill -9 -f nginx
+killall nginx

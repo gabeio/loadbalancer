@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # personalized configuration of nginx
 ./configure --prefix=/opt/nginx \
 --without-http_scgi_module \
