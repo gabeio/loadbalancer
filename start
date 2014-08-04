@@ -1,2 +1,2 @@
-# runs nginx from /etc/nginx/nginx.conf
-/opt/nginx/objs/nginx -c /etc/nginx/nginx.conf
+# runs haproxy from /etc/haproxy/haproxy.conf
+/opt/haproxy/haproxy -f /etc/haproxy/haproxy.conf

@@ -1,5 +1,5 @@
-# kills ALL *nginx* processes and starts nginx again
-#pkill -9 -f nginx
-killall nginx
+# kills ALL *haproxy* processes and starts nginx again
+#pkill -9 -f haproxy
+killall haproxy
 sleep 1
-/opt/nginx/objs/nginx -c /etc/nginx/nginx.conf
+/opt/haproxy/haproxy -f /etc/haproxy/haproxy.conf

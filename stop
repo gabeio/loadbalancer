@@ -1,1 +1,2 @@
-pkill -9 -f nginx
+#pkill -9 -f haproxy
+killall haproxy
