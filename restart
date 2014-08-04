@@ -1,3 +1,5 @@
 # kills ALL *nginx* processes and starts nginx again
-pkill -9 -f nginx
+#pkill -9 -f nginx
+killall nginx
+sleep 1
 /opt/nginx/objs/nginx -c /etc/nginx/nginx.conf
