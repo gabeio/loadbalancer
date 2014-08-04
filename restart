@@ -1,3 +1,4 @@
+#!/usr/bin/env sh
 # kills ALL *haproxy* processes and starts nginx again
 #pkill -9 -f haproxy
 killall haproxy

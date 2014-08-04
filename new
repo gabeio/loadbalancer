@@ -1,2 +1,3 @@
-# run this for new nginx installs (ubuntu)
+#!/usr/bin/env sh
+# run this for new haproxy installs (ubuntu)
 sudo apt-get -y install libpcre3 libpcre3-dev libxslt1.1 libxslt-dev libcap2-bin

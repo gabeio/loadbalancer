@@ -1,2 +1,3 @@
+#!/usr/bin/env sh
 # runs haproxy from /etc/haproxy/haproxy.conf
 /opt/haproxy/haproxy -f /etc/haproxy/haproxy.conf
