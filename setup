@@ -21,7 +21,8 @@
 --with-http_random_index_module \
 --with-http_secure_link_module \
 --with-http_degradation_module \
---with-http_stub_status_module
+--with-http_stub_status_module \
+--with-stream
 
 mkdir logs
 
