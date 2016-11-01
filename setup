@@ -22,6 +22,7 @@
 --with-http_secure_link_module \
 --with-http_degradation_module \
 --with-http_stub_status_module \
+--with-http_v2_module \
 --with-stream
 
 mkdir logs
